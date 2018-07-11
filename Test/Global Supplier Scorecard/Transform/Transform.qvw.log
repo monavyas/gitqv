@@ -1,0 +1,78 @@
+﻿2018-07-05 15:59:57      Execution started.
+2018-07-05 15:59:57      QlikView Desktop Version      12.10.20600+2017-08-11 08:59:13.HEAD.Component.Version
+2018-07-05 15:59:57      CPU Target                    x64
+2018-07-05 15:59:57      Operating System              Windows Server 2012 R2 Datacenter  (64 bit edition)
+2018-07-05 15:59:57      Wow64 mode                    Not using Wow64
+2018-07-05 15:59:57      Language                      0409 English (United States) English
+2018-07-05 15:59:57      Country                       1 United States United States
+2018-07-05 15:59:57      MDAC Version                  6.3.9600.16384
+2018-07-05 15:59:57      MDAC Full Install Version     6.3.9600.16384
+2018-07-05 15:59:57      PreferredCompression          2
+2018-07-05 15:59:57      EnableParallelReload          1
+2018-07-05 15:59:57      ParallelizeQvdLoads           1
+2018-07-05 15:59:57      AutoSaveAfterReload           0
+2018-07-05 15:59:57      BackupBeforeReload            0
+2018-07-05 15:59:57      EnableFlushLog                0
+2018-07-05 15:59:57      SaveInfoWhenSavingFile        0
+2018-07-05 15:59:57      UserLogfileCharset            65001
+2018-07-05 15:59:57      OdbcLoginTimeout              -1
+2018-07-05 15:59:57      OdbcConnectionTimeout         -1
+2018-07-05 15:59:57      LongestPossibleLine           1048576
+2018-07-05 15:59:57      MaxCoreMask                   -1
+2018-07-05 15:59:57      ScriptWantsDbWrite            false
+2018-07-05 15:59:57      ScriptWantsExe                false
+2018-07-05 15:59:57      LogFile CodePage Used:        65001
+2018-07-05 15:59:57      UseMemoryFillPattern          1
+2018-07-05 15:59:57      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
+2018-07-05 15:59:57      SequentialThreadCount         3794
+2018-07-05 15:59:57      NumberOfCores (effective)     48
+2018-07-05 15:59:57      ReloadCodebase                Classic
+2018-07-05 15:59:57      Reload Executed By            CAG\t4279rs
+2018-07-05 15:59:57      Process Executing             QlikView Desktop
+2018-07-05 15:59:57      Process ID                    1600
+2018-07-05 15:59:57 0002 SET ThousandSep=','
+2018-07-05 15:59:57 0003 SET DecimalSep='.'
+2018-07-05 15:59:57 0004 SET MoneyThousandSep=','
+2018-07-05 15:59:57 0005 SET MoneyDecimalSep='.'
+2018-07-05 15:59:57 0006 SET MoneyFormat='$#,##0.00;($#,##0.00)'
+2018-07-05 15:59:57 0007 SET TimeFormat='h:mm:ss TT'
+2018-07-05 15:59:57 0008 SET DateFormat='M/D/YYYY'
+2018-07-05 15:59:57 0009 SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT'
+2018-07-05 15:59:57 0010 SET FirstWeekDay=6
+2018-07-05 15:59:57 0011 SET BrokenWeeks=1
+2018-07-05 15:59:57 0012 SET ReferenceDay=0
+2018-07-05 15:59:57 0013 SET FirstMonthOfYear=1
+2018-07-05 15:59:57 0014 SET CollationLocale='en-US'
+2018-07-05 15:59:57 0015 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec'
+2018-07-05 15:59:57 0016 SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December'
+2018-07-05 15:59:57 0017 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun'
+2018-07-05 15:59:57 0018 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday'
+2018-07-05 15:59:57 0020 order:
+2018-07-05 15:59:57 0021 Directory
+2018-07-05 15:59:57 0022 LOAD [Row ID], 
+2018-07-05 15:59:57 0023      [Order ID], 
+2018-07-05 15:59:57 0024      Date([Order Date],'MM/DD/YYYY') as [Order Date], 
+2018-07-05 15:59:57 0025      Date([Ship Date],'MM/DD/YYYY') as [Ship Date], 
+2018-07-05 15:59:57 0026      [Order Priority], 
+2018-07-05 15:59:57 0027      [Order Quantity], 
+2018-07-05 15:59:57 0028      Sales, 
+2018-07-05 15:59:57 0029      Discount, 
+2018-07-05 15:59:57 0030      [Ship Mode], 
+2018-07-05 15:59:57 0031      Profit, 
+2018-07-05 15:59:57 0032      [Unit Price], 
+2018-07-05 15:59:57 0033      [Shipping Cost], 
+2018-07-05 15:59:57 0034      [Customer Name], 
+2018-07-05 15:59:57 0035      Province, 
+2018-07-05 15:59:57 0036      Region, 
+2018-07-05 15:59:57 0037      [Customer Segment], 
+2018-07-05 15:59:57 0038      [Product Category], 
+2018-07-05 15:59:57 0039      [Product Sub-Category], 
+2018-07-05 15:59:57 0040      [Product Name], 
+2018-07-05 15:59:57 0041      [Product Container], 
+2018-07-05 15:59:57 0042      [Product Base Margin]
+2018-07-05 15:59:57 0043 FROM
+2018-07-05 15:59:57 0044 [..\QVD\orders.QVD]
+2018-07-05 15:59:57 0045 (qvd)
+2018-07-05 15:59:57      	21 fields found: Row ID, Order ID, Order Date, Ship Date, Order Priority, Order Quantity, Sales, Discount, Ship Mode, Profit, Unit Price, Shipping Cost, Customer Name, Province, Region, Customer Segment, Product Category, Product Sub-Category, Product Name, Product Container, Product Base Margin, 
+2018-07-05 15:59:57      8,399 lines fetched
+2018-07-05 15:59:57      Execution finished.
