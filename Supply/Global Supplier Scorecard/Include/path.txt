@@ -1,0 +1,3 @@
+//ODBC CONNECT TO PostgreSQL35W (XUserId is GAbICSJMVbcEXVBOJTeB, XPassword is GKAWNSJMVbcEXVBOJLMOL);
+
+LET vPath ='..\QVD';
